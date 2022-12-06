@@ -1,9 +1,9 @@
 import React from "react";
+import service1 from '../../../Assets/Images/s1.png';
+import service2 from '../../../Assets/Images/s6.png';
 import { SData } from "../../../data/ServiceData";
-import '../Services/Services.css'
+import '../Services/Services.css';
 import Service from "./Service";
-import service1 from '../../../Assets/Images/s1.png'
-import service2 from '../../../Assets/Images/s6.png'
 
 const Services = () => {
   return (
