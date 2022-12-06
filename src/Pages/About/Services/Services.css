@@ -1,0 +1,220 @@
+/*
+==========================
+    SERVICE AREA CSS
+==========================
+*/
+.inherit {
+    margin: inherit !important;
+    width: 150px;
+}
+
+.single-service {
+    text-align: center;
+    padding   : 50px 40px;
+    transition:all .3s;
+    position  : relative;
+    z-index   : 2;
+    overflow: hidden;
+    background: #16181A;
+}
+
+.circles-wrap {
+    position: absolute;
+    bottom: -33%;
+    left: 33%;
+    z-index: -1;
+}
+
+span.circle {
+    border-radius: 50%;
+    position     : absolute;
+    -webkit-transform    : scale(0);
+    -ms-transform    : scale(0);
+    transform    : scale(0);
+    -webkit-transition   : all .3s;
+    -o-transition   : all .3s;
+    transition   : all .3s;
+}
+.circles {
+    height         : 400px;
+    width          : 400px;
+    background     : transparent;
+    display        : flex;
+    position       : relative;
+    align-items    : center;
+    justify-content: center;
+    z-index        : 1;
+}
+
+span.circle.circle-1 {
+    height    : 100px;
+    width     : 100px;
+    background: #FF0080;
+    z-index   : 5;
+    display   : inline-block;
+    z-index   : 5;
+}
+
+
+span.circle.circle-2 {
+    height    : 200px;
+    width     : 200px;
+    background: #fd1288;
+    z-index   : 4;
+}
+
+span.circle.circle-3 {
+    height    : 300px;
+    width     : 300px;
+    background: #f10079ee;
+    z-index   : 3;
+}
+
+span.circle.circle-4 {
+    height    : 400px;
+    width     : 400px;
+    background: #eb0076ce;
+    z-index   : 2;
+}
+
+
+
+.single-service:hover span.circle, 
+.single-service.active span.circle{
+    transform : scale(1);
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+
+.service-area .circles-wrap {
+    position: absolute;
+    bottom  : -32%;
+    left    : auto;
+    z-index : -1;
+    right   : -50%;
+}
+
+
+.service-text h4 {
+    font-size: 24px;
+    /* text-transform: uppercase; */
+    color: #FF0080;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.service-text {
+    margin: 30px 0 30px 0px;
+}
+
+.service-area .service-text {
+    margin: 30px 0 0px 0px;
+}
+
+
+.service-text p {
+    color         : #999999;
+    text-transform: capitalize;
+    font-size     : 18px;
+    font-weight   : 400;
+    margin-bottom: 0;
+}
+
+
+.service-icon {
+    width: 90px;
+    margin: 0 auto;
+}
+
+.single-service.active , 
+.single-service:hover {
+    background: #e0177c;
+    -webkit-transition:all .3s;
+    -o-transition:all .3s;
+    transition:all .3s;
+}
+
+.single-service.active .service-text h4,
+.single-service.active .service-text h3,  
+.single-service:hover .service-text h3,
+.single-service.active .service-text h5,
+.single-service:hover .service-text h5, 
+.single-service:hover .service-text h4,  
+.single-service.active .service-text p, 
+.single-service:hover .service-text p  {
+    color     : #fff;
+   -webkit-transition:all .3s;
+   -o-transition:all .3s;
+   transition:all .3s;
+}
+
+.single-service.active .cbtn.pricing-btn, 
+.single-service:hover .cbtn.pricing-btn{
+    background: #ff2b95;
+    -webkit-transition:all .3s;
+    -o-transition:all .3s;
+    transition:all .3s;
+}
+.single-service.active .cbtn.pricing-btn i, 
+.single-service:hover .cbtn.pricing-btn i{
+    color     : #ff2b95;
+    -webkit-transition:all .3s;
+    -o-transition:all .3s;
+    transition:all .3s;
+}
+
+.single-service.active .separator, 
+.single-service:hover .separator{
+    border-color: #fff;
+}
+
+.service-area.service-primery {
+    background: #fff;
+}
+
+
+.service-primery .single-service{
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #f0f0f0;
+}
+
+.service-primery .single-service.active, 
+.service-primery .single-service:hover {
+    background: #ff2b95;
+    -webkit-transition:all .3s;
+    -o-transition:all .3s;
+    transition:all .3s;
+}
+
+
+
+.service-primery .service-text {
+    margin: 40px 0 0 0px;
+}
+
+.service-primery {
+    position: relative;
+    z-index: 2;
+}
+
+/* .service-primery:after {
+    position: absolute;
+    content: "";
+    height: 400px;
+    width: 400px;
+    right: 0;
+    top: 0;
+    background: url(../img/bg/service-bg.svg);
+} */
+
+.pricing2 {
+    background: #FAFAFA;
+}
+
+.pricing2 .service-text h3, 
+.pricing2 .service-text h4{
+    color: #32383A ;
+}
