@@ -1,0 +1,66 @@
+.resume {
+  background-image: linear-gradient(
+      to top,
+      rgba(24, 24, 24, 0.678),
+      rgb(24, 24, 24)
+    ),
+    url(../../../Assets/Images/shape-1.jpg);
+  /* background-repeat: no-repeat; */
+  width: 100%;
+  background-size: cover;
+}
+
+.d_timeline {
+  counter-reset: list 0;
+  padding: 0 0 0 22px;
+  position: relative;
+}
+
+.d_timeline-item {
+  border-left: 1px solid rgba(255, 255, 255, 0.671);
+  list-style: none;
+}
+
+.d_timeline-title {
+  background: linear-gradient(
+    90deg,
+    hsla(0, 0%, 100%, 0.1),
+    hsla(0, 0%, 100%, 0)
+  );
+}
+.d_timeline-title:before {
+  background-color: #db0067;
+  border-radius: 0px 0px 20px 0px;
+  color: #fff;
+  content: counter(list);
+  counter-increment: list;
+  display: inline-block;
+  height: 38px;
+  left: -11px;
+  line-height: 40px;
+  position: relative;
+  text-align: center;
+  width: 40px;
+}
+
+.d_timeline-text {
+  margin: 0;
+  padding: 0 0 40px 40px;
+}
+
+.d_timeline-text .d_title {
+  color: #fff;
+  display: block;
+  font-family: var(--title-font);
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.d_timeline-text .d_company {
+  color: #cf1f1f;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+}

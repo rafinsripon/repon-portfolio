@@ -18,7 +18,7 @@ const Testimonial = () => {
           What my clients think about me
           </p>
           <h2 className="capitalize lg:text-4xl text-3xl font-extrabold w-[50%] leading-tight text-white mt-4 mb-3">
-            SERVICES AND SOLUTIONS
+            Testimonials
           </h2>
           <div class=" animated-bar inherit"></div>
         </div>
