@@ -40,6 +40,35 @@
     animation: single-news 1.5s ease;
 }
 
+.slick-prev {
+    left: 70% !important;
+}
+
+.slick-next {
+    left: 80% !important;
+}
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 110% !important;
+    
+    display: block;
+    width: 20px;
+    height: 20px;
+    right: 0;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 40px !important;
+}
 
 @keyframes single-news {
     0% {

@@ -1,13 +1,52 @@
 import React from "react";
 import "./Projects.css";
-import developer from "../../../Assets/Images/developer.png";
-import cyber from "../../../Assets/Images/cyber.png";
+import mega from "../../../Assets/Images/mega.png";
+import doctors from "../../../Assets/Images/doctors.png";
 import business from "../../../Assets/Images/business.png";
-import { Link } from "react-router-dom";
+import useMarket from "../../../Assets/Images/usedMarket.jpg";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const Projects = () => {
+  const settings = {
+    dots: false,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  }
   return (
-    <div className="project pt-10 pb-20">
+    <div className="project pt-10 pb-28">
       <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="text-center">
           <p className="text-primary text-lg font-bold">
@@ -18,37 +57,83 @@ const Projects = () => {
           </h2>
           <div class="animated-bar animatedbar_service"></div>
         </div>
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 mt-20">
-          <div className="project_grid">
-            <div className="inner">
-              <img src={business} alt="" />
+        <div className="mt-20">
+          <Slider {...settings}>
+            <div className="project_grid px-4">
+              <div className="inner">
+                <img src={doctors} alt="" />
+              </div>
+              <a
+                className="p-url text-2xl font-bold text-white font-['syne']"
+                href="https://rafinsripon.github.io/2.Agency-mega-one-HTML5-template/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Doctors portal - ReactJS Template
+              </a>
+              <p className="text-primary mt-2">ReactJS / NodeJS / MongoDB</p>
             </div>
-            <a className="p-url text-2xl font-bold text-white font-['syne']" href="https://rafinsripon.github.io/2.Agency-mega-one-HTML5-template/" target='_blank' rel="noreferrer">
-            Bizup - Business HTML5 Template
-            </a>
-            <p className="text-primary mt-2">Web dedign / Business</p>
-          </div>
-          <div className="project_grid">
-            <div className="inner">
-              <img src={developer} alt="" />
+            <div className="project_grid px-4">
+              <div className="inner">
+                <img src={useMarket} alt="" />
+              </div>
+              <a
+                className="p-url text-2xl font-bold text-white font-['syne']"
+                href="https://rafinsripon.github.io/2.Agency-mega-one-HTML5-template/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Doctors portal - ReactJS Template
+              </a>
+              <p className="text-primary mt-2">ReactJS / NodeJS / MongoDB</p>
             </div>
-            <a className="p-url text-2xl font-bold text-white font-['syne']" href="https://rafinsripon.github.io/2.Agency-mega-one-HTML5-template/" target='_blank' rel="noreferrer">
-            Rafs - Developer portfolio Template
-            </a>
-            <p className="text-primary mt-2">Web dedign / portfolio</p>
-          </div>
-          <div className="project_grid">
-            <div className="inner">
-              <img src={cyber} alt="" />
+            <div className="project_grid px-4">
+              <div className="inner">
+                <img src={doctors} alt="" />
+              </div>
+              <a
+                className="p-url text-2xl font-bold text-white font-['syne']"
+                href="https://rafinsripon.github.io/2.Agency-mega-one-HTML5-template/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Doctors portal - ReactJS Template
+              </a>
+              <p className="text-primary mt-2">ReactJS / NodeJS / MongoDB</p>
             </div>
-            <a className="p-url text-2xl font-bold text-white font-['syne']" href="https://rafinsripon.github.io/2.Agency-mega-one-HTML5-template/" target='_blank' rel="noreferrer">
-            Cyber - Developer portfolio Template
-            </a>
-            <p className="text-primary mt-2">Web dedign / portfolio</p>
-          </div>
+            <div className="project_grid px-4">
+              <div className="inner">
+                <img src={business} alt="" />
+              </div>
+              <a
+                className="p-url text-2xl font-bold text-white font-['syne']"
+                href="https://rafinsripon.github.io/2.Agency-mega-one-HTML5-template/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Bizup - Business HTML5 Template
+              </a>
+              <p className="text-primary mt-2">
+                HTML5 / Bootstrap / Javascript
+              </p>
+            </div>
+            <div className="project_grid">
+              <div className="inner">
+                <img src={mega} alt="" />
+              </div>
+              <a
+                className="p-url text-2xl font-bold text-white font-['syne']"
+                href="https://rafinsripon.github.io/2.Agency-mega-one-HTML5-template/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                MegaOne - Agency Template
+              </a>
+              <p className="text-primary mt-2">HTML5 / CSS3 / Javascript</p>
+            </div>
+          </Slider>
         </div>
       </div>
-
     </div>
   );
 };
