@@ -3,7 +3,6 @@ import "./Projects.css";
 import developer from "../../../Assets/Images/developer.png";
 import cyber from "../../../Assets/Images/cyber.png";
 import business from "../../../Assets/Images/business.png";
-import agency from "../../../Assets/Images/agency.png";
 import { Link } from "react-router-dom";
 
 const Projects = () => {
@@ -22,7 +21,7 @@ const Projects = () => {
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 mt-20">
           <div className="project_grid">
             <div className="inner">
-              <img src={agency} alt="" />
+              <img src={business} alt="" />
             </div>
             <a href="https://rafinsripon.github.io/2.Agency-mega-one-HTML5-template/" target='_blank' rel="noreferrer">
             <h2 className="text-2xl font-bold text-white">
@@ -52,7 +51,6 @@ const Projects = () => {
             </h2>
             <p className="text-primary mt-2">Web dedign / creative</p>
             </a>
-
           </div>
         </div>
       </div>
