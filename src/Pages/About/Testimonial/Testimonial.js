@@ -5,7 +5,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "../Testimonial/Testimonial.css";
-
 // import required modules
 import { Navigation, Pagination } from "swiper";
 
@@ -15,7 +14,7 @@ const Testimonial = () => {
       <div className="bg-[#151c1f] lg:p-24 py-20 px-8">
         <div>
           <p className="text-primary text-lg font-bold">
-          What my clients think about me
+            What my clients think about me
           </p>
           <h2 className="capitalize lg:text-4xl text-3xl font-extrabold w-[50%] leading-tight text-white mt-4 mb-3">
             Testimonials

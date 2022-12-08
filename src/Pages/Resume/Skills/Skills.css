@@ -1,0 +1,76 @@
+.back-dark {
+    background-color: #161516;
+}
+
+.portfolio-bottom-link {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 80px;
+    color: #fff;
+    padding-bottom: 80px;
+    transition: all 300ms linear;
+}
+.portfolio-bottom-link:hover:before {
+    left: 0;
+}
+.portfolio-bottom-link:hover:after {
+    right: 0;
+}
+.portfolio-bottom-link:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 0;
+    left: -100%;
+    background: rgba(255,255,255,.05);
+    transition: all 300ms linear;
+}
+.portfolio-bottom-link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    right: -100%;
+    background: rgba(255,255,255,.05);
+    transition: all 300ms linear;
+}
+
+.iamges img {position: relative;}
+
+
+.relative.iamges:hover:after{
+    opacity: 0.5;
+    width: 100%;
+}
+
+.relative.iamges:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    width: 0%;
+    height: 100%;
+    background: #f4f8fa7a;
+    opacity: 0;
+    transition: all 200ms linear;
+}
+
+.relative.iamges:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #111314;
+    right: 0;
+    z-index: 1;
+    opacity: 0.7;
+}
