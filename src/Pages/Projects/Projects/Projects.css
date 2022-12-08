@@ -1,0 +1,11 @@
+.project {
+    background-image: linear-gradient(
+        to top,
+        rgba(24, 24, 24, 0.74),
+        rgb(24, 24, 24)
+      ),
+      url(../../../Assets//Images/shape-2.jpg);
+    /* background-repeat: no-repeat; */
+    width: 100%;
+    background-size: cover;
+  }

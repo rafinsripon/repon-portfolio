@@ -3,7 +3,7 @@ import Main from "../Layouts/Main";
 import About from "../Pages/About/About";
 import Testimonial from "../Pages/About/Testimonial/Testimonial";
 import Home from "../Pages/Home/Home";
-import Projects from "../Pages/Projects/Projects";
+import Projects from "../Pages/Projects/Projects/Projects";
 import Resume from "../Pages/Resume/Resume/Resume";
 
 export const router = createBrowserRouter([
