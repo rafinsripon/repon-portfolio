@@ -23,34 +23,28 @@ const Projects = () => {
             <div className="inner">
               <img src={business} alt="" />
             </div>
-            <a href="https://rafinsripon.github.io/2.Agency-mega-one-HTML5-template/" target='_blank' rel="noreferrer">
-            <h2 className="text-2xl font-bold text-white">
-              Mega One - Creative Agency HTML5 Template
-            </h2>
-            <p className="text-primary mt-2">Web dedign / creative</p>
+            <a className="p-url text-2xl font-bold text-white font-['syne']" href="https://rafinsripon.github.io/2.Agency-mega-one-HTML5-template/" target='_blank' rel="noreferrer">
+            Bizup - Business HTML5 Template
             </a>
+            <p className="text-primary mt-2">Web dedign / Business</p>
           </div>
           <div className="project_grid">
             <div className="inner">
               <img src={developer} alt="" />
             </div>
-            <a href="https://rafinsripon.github.io/2.Agency-mega-one-HTML5-template/" target='_blank' rel="noreferrer">
-            <h2 className="text-2xl font-bold text-white">
-              Mega One - Creative Agency HTML5 Template
-            </h2>
-            <p className="text-primary mt-2">Web dedign / creative</p>
+            <a className="p-url text-2xl font-bold text-white font-['syne']" href="https://rafinsripon.github.io/2.Agency-mega-one-HTML5-template/" target='_blank' rel="noreferrer">
+            Rafs - Developer portfolio Template
             </a>
+            <p className="text-primary mt-2">Web dedign / portfolio</p>
           </div>
           <div className="project_grid">
             <div className="inner">
               <img src={cyber} alt="" />
             </div>
-            <a href="https://rafinsripon.github.io/2.Agency-mega-one-HTML5-template/" target='_blank' rel="noreferrer">
-            <h2 className="text-2xl font-bold text-white">
-              Mega One - Creative Agency HTML5 Template
-            </h2>
-            <p className="text-primary mt-2">Web dedign / creative</p>
+            <a className="p-url text-2xl font-bold text-white font-['syne']" href="https://rafinsripon.github.io/2.Agency-mega-one-HTML5-template/" target='_blank' rel="noreferrer">
+            Cyber - Developer portfolio Template
             </a>
+            <p className="text-primary mt-2">Web dedign / portfolio</p>
           </div>
         </div>
       </div>
