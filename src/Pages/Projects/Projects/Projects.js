@@ -7,7 +7,7 @@ import useMarket from "../../../Assets/Images/usedMarket.jpg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import Branding from "../Branding/Branding";
 
 const Projects = () => {
   const settings = {
@@ -46,7 +46,7 @@ const Projects = () => {
     ]
   }
   return (
-    <div className="project pt-10 pb-28">
+    <div className="project pt-10 pb-2">
       <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="text-center">
           <p className="text-primary text-lg font-bold">
@@ -127,13 +127,14 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                MegaOne - Agency Template
+                MegaOne - Agency HTML5 Template
               </a>
               <p className="text-primary mt-2">HTML5 / CSS3 / Javascript</p>
             </div>
           </Slider>
         </div>
       </div>
+      <Branding />
     </div>
   );
 };

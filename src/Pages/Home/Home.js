@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
 import PrimaryButton from "../../components/Button/PrimaryButton";
 import "../Home/Home.css";
 import TypeWriterEffect from "react-typewriter-effect";
+import resume from '../../Assets/Images/Repon_Mia_Resume.pdf'
 
 const Home = () => {
   return (
@@ -41,9 +41,9 @@ const Home = () => {
             unique. I have a strong passion for learning & implementing web
             technologies and standards.
           </p>
-          <Link>
-            <PrimaryButton>Learn More</PrimaryButton>
-          </Link>
+          <a href={resume} download='Repon_Mia_Resume'>
+            <PrimaryButton>Download Resume</PrimaryButton>
+          </a>
         </div>
       </div>
     </div>

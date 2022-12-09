@@ -53,22 +53,12 @@ const Header = () => {
             </li>
             <li>
               <Link
-                to="/"
+                to="/contact"
                 aria-label="About us"
                 title="About us"
                 class="font-medium tracking-wide text-white link_li"
               >
-                About us
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/"
-                class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                aria-label="Sign up"
-                title="Sign up"
-              >
-                Sign up
+                Contact Me
               </Link>
             </li>
           </ul>
