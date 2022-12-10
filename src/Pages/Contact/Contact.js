@@ -1,10 +1,26 @@
 import React from "react";
 import "./Contact.css";
 import { ImMap } from "react-icons/im";
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import { FaMapMarkerAlt, FaPhoneVolume, FaTelegramPlane } from "react-icons/fa";
 import Button from "../../components/Button/Button/Button";
+import { toast } from "react-hot-toast";
 
 const Contact = () => {
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_6ulobbd', 'template_h6qe4na', form.current, 'c-t78vxQfryZFhAqN')
+          .then((result) => {
+              toast.success('🚀Message Send Success Fully Done')
+          }, (error) => {
+            toast.error('oppos', error.text)
+              console.log(error.text);
+          });
+          e.target.reset();
+      };
   return (
     <div className="contact pt-12 pb-20">
       <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
@@ -18,39 +34,43 @@ const Contact = () => {
           <div class="animated-bar animatedbar_service"></div>
         </div>
         <div className="grid lg:grid-cols-2 gap-8 mt-14">
-          <div>
-            <div className="lg:flex gap-4 relative">
+          <form ref={form} onSubmit={sendEmail}>
+          <div className="lg:flex gap-4 relative">
               <input
                 class="form-controls w-full"
                 id="contact-name"
                 type="text"
                 name="name"
                 placeholder="Name"
-                required=""
+                required
               />
               <input
                 class="form-controls w-full"
                 id="contact-name"
                 type="email"
-                name="name"
+                name="email"
                 placeholder="Email"
-                required=""
+                required
               />
             </div>
             <input
               class="form-controls w-full mt-10"
               id="contact-name"
               type="text"
-              name="name"
+              name="subject"
               placeholder="Subject"
-              required=""
+              required
             />
             <textarea
+            name="massage"
+            required
               className="form-controls textarea w-full mt-12"
               placeholder="Message"
             ></textarea>
-            <Button classes='buttons'>CONTACT ME</Button>
-          </div>
+            <Button classes={`buttons`}>
+                CONTACT ME
+            </Button>
+          </form>
           <div>
             <h2 className="text-2xl font-extrabold text-white">Contact Info</h2>
             <div className="flex items-center mt-6">
