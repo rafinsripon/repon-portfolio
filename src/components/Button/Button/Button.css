@@ -1,0 +1,34 @@
+.button .line {
+    width: 108px;
+    height: 2px;
+    background: #ff00b1;
+    position: absolute;
+}
+.button:hover .line{
+    background: #ffffff;
+}
+
+.button .line:after {
+    position: absolute;
+    content: "";
+    width: 25px;
+    height: 2px;
+    left: 88px;
+    top: -8px;
+    background: #ff00b1;
+    transform: rotate(45deg);
+    transition: 0.3s ease-in-out;
+}
+.button {
+    margin-top: 40px;
+}
+
+.button:hover .line:after{
+    background: #ffffff;
+} 
+.text{
+    color: #ebebeb;
+}
+.button:hover .text{
+    color: #ff00b1;
+}

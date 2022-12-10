@@ -73,7 +73,6 @@
       rgb(24, 24, 24)
     ),
     url(../../Assets/Images/a-41.jpg);
-  /* background-repeat: no-repeat; */
   width: 100%;
   background-size: cover;
 }

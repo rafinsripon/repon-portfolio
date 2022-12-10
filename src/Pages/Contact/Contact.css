@@ -1,0 +1,43 @@
+.contact {
+  background-image: linear-gradient(
+      to top,
+      rgba(24, 24, 24, 0.63),
+      rgb(24, 24, 24)
+    ),
+    url(../../Assets/Images/a-41.jpg);
+  width: 100%;
+  background-size: cover;
+}
+.form-controls {
+  background-color: inherit;
+  border: none;
+  color: #fff;
+  border-bottom: 2px solid #ff0080;
+  border-radius: 0;
+  font-size: 15px;
+  height: 56px;
+}
+
+.textarea {
+  height: 100px;
+  padding: 0px;
+}
+
+.form-controls:focus {
+  border-bottom: 2px solid #fff;
+}
+
+.form-controls:focus {
+  box-shadow: none;
+}
+
+:focus {
+  outline: 0;
+}
+
+span.line.block.buttons {
+    width: 112px;
+}
+span.line.block.buttons:after {
+    left: 92px;
+}
