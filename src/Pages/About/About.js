@@ -2,7 +2,6 @@ import React from "react";
 import about from "../../Assets/Images/about.png";
 import sape from "../../Assets/Images/aboutSape.svg";
 import Button from "../../components/Button/Button/Button";
-import PrimaryButton from "../../components/Button/PrimaryButton";
 import "../About/About.css";
 import Services from "./Services/Services";
 import Testimonial from "./Testimonial/Testimonial";
