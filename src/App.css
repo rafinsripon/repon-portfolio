@@ -8,8 +8,6 @@
 body{
     background-color: rgb(24,24,24);
     font-family: 'Poppins', sans-serif;
-    /* font-family: 'Jost', sans-serif;
-    font-family: 'Zen Dots', cursive; */
 }
 
 h1,
@@ -27,5 +25,25 @@ h6{
     padding-right: 15px;
     margin: 0 auto;
 }
+
+/* ===== Scrollbar CSS ===== */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(200,3,126,1) 35%, rgba(255,0,129,1) 100%);
+  }
+
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #171717;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(200,3,126,1) 35%, rgba(255,0,129,1) 100%);
+    border-radius: 4px;
+    border: 3px groove #d60068;
+  }
 
 

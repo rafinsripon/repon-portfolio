@@ -1,14 +1,48 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
 import "../Testimonial/Testimonial.css";
-// import required modules
-import { Navigation, Pagination } from "swiper";
+
 
 const Testimonial = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    speed: 500,
+    arrows:false,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  }
   return (
     <section>
       <div className="bg-[#151c1f] lg:p-24 py-20 px-8">
@@ -23,38 +57,9 @@ const Testimonial = () => {
         </div>
       </div>
       <div class="mx-auto max-w-[1340px] px-4 py-16 sm:px-6 sm:pt-0 sm:pb-24 lg:mr-0 lg:pl-8 lg:pr-0">
-        <Swiper
-          slidesPerView={2}
-          spaceBetween={30}
-          slidesPerGroup={1}
-          loop={true}
-          loopFillGroupWithBlank={true}
-          pagination={{
-            clickable: true,
-          }}
-          breakpoints={{
-            425: {
-              slidesPerView: 1,
-              spaceBetween: 20,
-            },
-            640: {
-              slidesPerView: 1,
-              spaceBetween: 20,
-            },
-            768: {
-              slidesPerView: 2,
-              spaceBetween: 40,
-            },
-            1024: {
-              slidesPerView: 2,
-              spaceBetween: 50,
-            },
-          }}
-          navigation={false}
-          modules={[Pagination, Navigation]}
-        >
-          <SwiperSlide>
-            <div class="w-full  max-w-[35rem] px-8 py-4 mt-16 rounded-lg shadow-lg dark:bg-[#162127]">
+        
+      <Slider {...settings}>
+      <div class="w-full max-w-[35rem] px-8 py-4 mt-16 rounded-lg shadow-lg dark:bg-[#162127]">
               <div class="flex justify-center -mt-16 md:justify-end">
                 <img
                   class="object-cover w-20 h-20 border-2 border-blue-500 rounded-full dark:border-blue-400"
@@ -85,8 +90,6 @@ const Testimonial = () => {
                 </a>
               </div>
             </div>
-          </SwiperSlide>
-          <SwiperSlide>
             <div class="w-full max-w-[35rem] px-8 py-4 mt-16 rounded-lg shadow-lg dark:bg-[#162127]">
               <div class="flex justify-center -mt-16 md:justify-end">
                 <img
@@ -118,8 +121,6 @@ const Testimonial = () => {
                 </a>
               </div>
             </div>
-          </SwiperSlide>
-          <SwiperSlide>
             <div class="w-full max-w-[35rem] px-8 py-4 mt-16 rounded-lg shadow-lg dark:bg-[#162127]">
               <div class="flex justify-center -mt-16 md:justify-end">
                 <img
@@ -151,8 +152,6 @@ const Testimonial = () => {
                 </a>
               </div>
             </div>
-          </SwiperSlide>
-          <SwiperSlide>
             <div class="w-full max-w-[35rem] px-8 py-4 mt-16 rounded-lg shadow-lg dark:bg-[#162127]">
               <div class="flex justify-center -mt-16 md:justify-end">
                 <img
@@ -184,8 +183,7 @@ const Testimonial = () => {
                 </a>
               </div>
             </div>
-          </SwiperSlide>
-        </Swiper>
+      </Slider>
       </div>
     </section>
   );
