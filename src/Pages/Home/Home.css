@@ -1,8 +1,10 @@
 
 .bg-image{
-    background-image:linear-gradient(to top, rgba(24, 24, 24, 0.39), rgba(24, 24, 24, 0.932)), url(../../Assets/Images/hero-bg.jpg);
+    background-image:linear-gradient(to top, rgba(24, 24, 24, 0.39), rgba(24, 24, 24, 0.966)), url(../../Assets/Images/hero-bg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
+    /* height: 100%; */
+    width: 100%;
 }
 
 .rafins_logo {
@@ -31,13 +33,13 @@
     content: '';
     position: absolute;
     left: 0;
-    top: 50%;
+    bottom: 0%;
     width: 0;
     height: 3px;
     background-color: var(--pink);
     transition: 0.5s;
 }
 
-.link_li:hover:after {
+.link_li:hover:after{
     width: 100%;
 }

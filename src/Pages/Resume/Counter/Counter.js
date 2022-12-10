@@ -10,7 +10,7 @@ const Counter = ({ className, ...rest }) => {
     <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 gap-6">
       <div className="text-center lg:pb-0 md:pb-0 pb-16">
-        <div className="text-primary text-4xl font-extrabold font-['Syne'] mb-4" data-number="5,240">
+        <div className="text-primary text-4xl font-extrabold font-['Jost'] mb-4" data-number="5,240">
           <CountUp {...rest} start={viewCounter ? null : 0} end={5240}>
             {({countUpRef}) => {
                 return (
@@ -32,7 +32,7 @@ const Counter = ({ className, ...rest }) => {
         <h3 className="text-white font-bold">Hours of Works</h3>
       </div>
       <div className="text-center lg:pb-0 md:pb-0 pb-16">
-        <div className="text-primary text-4xl font-extrabold font-['Syne'] mb-4" data-number="50">
+        <div className="text-primary text-4xl font-extrabold font-['Jost'] mb-4" data-number="50">
           <CountUp {...rest} start={viewCounter ? null : 0} end={50}>
             {({countUpRef}) => {
                 return (
@@ -51,10 +51,10 @@ const Counter = ({ className, ...rest }) => {
             
           </CountUp>
         </div>
-        <h3 className="text-white font-bold">Compalte Projects</h3>
+        <h3 className="text-white font-bold">Complate Projects</h3>
       </div>
       <div className="text-center">
-        <div className="text-primary text-4xl font-extrabold font-['Syne'] mb-4" data-number="37">
+        <div className="text-primary text-4xl font-extrabold font-['Jost'] mb-4" data-number="37">
           <CountUp {...rest} start={viewCounter ? null : 0} end={37}>
             {({countUpRef}) => {
                 return (
@@ -76,7 +76,7 @@ const Counter = ({ className, ...rest }) => {
         <h3 className="text-white font-bold">Happy Clients</h3>
       </div>
       <div className="text-center">
-        <div className="text-primary text-4xl font-extrabold font-['Syne'] mb-4" data-number="16">
+        <div className="text-primary text-4xl font-extrabold font-['Jost'] mb-4" data-number="16">
           <CountUp {...rest} start={viewCounter ? null : 0} end={16}>
             {({countUpRef}) => {
                 return (

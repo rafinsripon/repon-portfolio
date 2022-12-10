@@ -11,7 +11,7 @@ const Services = () => {
         <div className="bg-[#151c1f] lg:p-24 py-20 px-8">
             <div>
             <p className="text-primary text-lg font-bold">Services i offer to my clients</p>
-            <h2 className="capitalize lg:text-4xl text-3xl font-extrabold w-[50%] leading-tight text-white mt-4 mb-3">SERVICES AND SOLUTIONS</h2>
+            <h2 className="capitalize lg:text-4xl text-3xl font-extrabold w-[50%] leading-tight text-white mt-4 mb-3">Services And Solutions</h2>
             <div class=" animated-bar inherit"></div>
             </div>
         </div>

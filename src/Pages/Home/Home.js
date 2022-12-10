@@ -6,21 +6,21 @@ import resume from '../../Assets/Images/Repon_Mia_Resume.pdf'
 
 const Home = () => {
   return (
-    <div class="lg:pb-[49px] w-full bg-image">
+    <div class="lg:min-h-screen w-full bg-image">
       <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="py-[94px] lg:w-[60%] w-full">
           <p className="text-lg font-bold text-white">WELCOME TO MY WORLD</p>
-          <h2 className="lg:text-6xl md:text-5xl text-4xl font-bold text-white lg:pr-10 mt-4">
-            Hi, I'm Ripon Rafins <br />
+          <h2 className="lg:text-5xl md:text-3xl text-4xl font-bold text-white lg:pr-10 mt-4 uppercase">
+            Hi, I'm Repon Rafins <br />
           </h2>
-          <h2 className="flex text-3xl text-white font-extrabold gap-4">
+          <h2 className="flex text-3xl text-white font-extrabold gap-4 mt-4">
             A
           <TypeWriterEffect
             textStyle={{
-              fontFamily: "Syne",
+              fontFamily: "Jost",
               color: "#FF0080",
               fontWeight: 800,
-              fontSize: "30px",
+              fontSize: "32px",
             }}
             startDelay={2000}
             cursorColor="#fff"
