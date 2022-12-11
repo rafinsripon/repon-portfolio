@@ -4,6 +4,7 @@ import About from "../Pages/About/About";
 import Testimonial from "../Pages/About/Testimonial/Testimonial";
 import Contact from "../Pages/Contact/Contact";
 import Home from "../Pages/Home/Home";
+import ProjectDetail from "../Pages/Projects/ProjectDetail/ProjectDetail";
 import Projects from "../Pages/Projects/Projects/Projects";
 import Resume from "../Pages/Resume/Resume/Resume";
 
@@ -31,6 +32,10 @@ export const router = createBrowserRouter([
             {
                 path: '/projects',
                 element: <Projects />
+            },
+            {
+                path: '/projectDetails/:id',
+                element: <ProjectDetail />
             },
             {
                 path: '/contact',

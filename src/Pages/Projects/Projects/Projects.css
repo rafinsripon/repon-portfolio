@@ -9,7 +9,7 @@
     background-size: cover;
   }
 
-  .project_grid {
+  /* .project_grid {
     width: calc(60% - -151px);
     overflow: hidden;
 }
@@ -27,7 +27,7 @@
 }
 .project_grid:hover .inner img {
     transform: translateY(calc(-100% + 530px));
-}
+} */
 
 .project_grid .p-url {
     background: linear-gradient(90deg,#FF0080,#FF0080 35%,#FF0080);

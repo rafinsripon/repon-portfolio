@@ -1,0 +1,71 @@
+[
+    {
+        "_id": "1",
+        "img": "https://i.ibb.co/bbx8nJK/65681d6a-22a3-400a-8fdc-2494788e69bd.png",
+        "title": "Mega One",
+        "name": "Agency Mega One - HTML5 Template",
+        "pera": "Javascript / HTML5 / Bootstrap / Jquery",
+        "livesite": "https://rafinsripon.github.io/2.Agency-mega-one-HTML5-template/",
+        "server": "",
+        "client": "https://github.com/rafinsripon/2.Agency-mega-one-HTML5-template",
+        "details": {
+            "common": "Donec mattis, augue condimentum varius vestibulum, magna lorem placerat ipsum, faucibus porta libero ipsum ut lorem. Morbi sed purus interdum. Ut porttitor odio eget mauris rutrum, a vehicula turpis llamcorper. Quisque iaculis leo non eleifend pretium. Nunc ullamcorper scelerisque purus semper. Donec mattis, augue condimentum varius vestibulum, magna lorem placerat ipsum, faucibus porta libero ipsum ut lorem. Morbi sed purus interdum. Ut porttitor odio eget mauris rutrum, a vehicula turpis llamcorper. Quisque iaculis leo non eleifend pretium. Nunc ullamcorper scelerisque purus semper.",
+            "detail1": "A full stack dentists website with and Beautiful Ui design and Responsive.",
+            "detail2": "A website built with many features, a beautiful header, footer, service, admin dashboard, and payment gateway is implemented in this website.",
+            "detail3": "website built with many features, a beautiful header, footer, service, admin dashboard, and payment gateway is implemented in this website.",
+            "detail4": "This website is based on minly design focus. Just demo live website",
+            "detail5": "Users can add a doctor and remove that doctor. This website is completely user-friendly"
+        }
+    },
+    {
+        "_id": "2",
+        "img": "https://i.ibb.co/PMCrBpw/doctors.png",
+        "client": "https://github.com/rafinsripon/doctors-portal.git",
+        "server": "https://github.com/rafinsripon/doctors-portal-server.git",
+        "name": "Dainties Doctors Portal - ReactJS Template",
+        "pera": "ReactJS / NodeJS / Javascript / MongoDB",
+        "details": {
+            "common": "Donec mattis, augue condimentum varius vestibulum, magna lorem placerat ipsum, faucibus porta libero ipsum ut lorem. Morbi sed purus interdum. Ut porttitor odio eget mauris rutrum, a vehicula turpis llamcorper. Quisque iaculis leo non eleifend pretium. Nunc ullamcorper scelerisque purus semper. Donec mattis, augue condimentum varius vestibulum, magna lorem placerat ipsum, faucibus porta libero ipsum ut lorem. Morbi sed purus interdum. Ut porttitor odio eget mauris rutrum, a vehicula turpis llamcorper. Quisque iaculis leo non eleifend pretium. Nunc ullamcorper scelerisque purus semper.",
+            "detail1": "A full stack dentists website with and Beautiful Ui design and Responsive.",
+            "detail2": "A website built with many features, a beautiful header, footer, service, admin dashboard, and payment gateway is implemented in this website.",
+            "detail3": "website built with many features, a beautiful header, footer, service, admin dashboard, and payment gateway is implemented in this website.",
+            "detail4": "This website is based on minly design focus. Just demo live website",
+            "detail5": "Users can add a doctor and remove that doctor. This website is completely user-friendly"
+        }
+    },
+    {
+        "_id": "3",
+        "img": "https://i.ibb.co/4Js4cfW/6709db16-22ca-41b3-b7e3-da5511afe628.png",
+        "client": "https://github.com/rafinsripon/quick-foods-client",
+        "server": "https://github.com/rafinsripon/quick-foods-server.git",
+        "livesite": "https://quick-food-fc463.web.app/",
+        "name": "Quick Food - online ReactJS Template",
+        "pera": "ReactJS / NodeJs / MongoDb / Express",
+        "details": {
+            "common": "Donec mattis, augue condimentum varius vestibulum, magna lorem placerat ipsum, faucibus porta libero ipsum ut lorem. Morbi sed purus interdum. Ut porttitor odio eget mauris rutrum, a vehicula turpis llamcorper. Quisque iaculis leo non eleifend pretium. Nunc ullamcorper scelerisque purus semper. Donec mattis, augue condimentum varius vestibulum, magna lorem placerat ipsum, faucibus porta libero ipsum ut lorem. Morbi sed purus interdum. Ut porttitor odio eget mauris rutrum, a vehicula turpis llamcorper. Quisque iaculis leo non eleifend pretium. Nunc ullamcorper scelerisque purus semper.",
+            "detail1": "A full stack dentists website with and Beautiful Ui design and Responsive.",
+            "detail2": "A website built with many features, a beautiful header, footer, service, admin dashboard, and payment gateway is implemented in this website.",
+            "detail3": "website built with many features, a beautiful header, footer, service, admin dashboard, and payment gateway is implemented in this website.",
+            "detail4": "This website is based on minly design focus. Just demo live website",
+            "detail5": "Users can add a doctor and remove that doctor. This website is completely user-friendly"
+        }
+    },
+    {
+        "_id": "4",
+        "img": "https://i.ibb.co/hVvDgDZ/1f103d43-3f04-4dab-9000-ec28d69c8919.png",
+        "name": "Used Cart Resale - ReactJS Template",
+        "livesite": "https://used-car-market-37ca6.web.app/",
+        "client": "https://github.com/rafinsripon/used-car-market.git",
+        "server": "https://github.com/rafinsripon/used-car-market-server.git",
+        "pera": "ReactJS / NodeJs / Firebase / MongoDb / Express",
+        "details": {
+            "common": "Donec mattis, augue condimentum varius vestibulum, magna lorem placerat ipsum, faucibus porta libero ipsum ut lorem. Morbi sed purus interdum. Ut porttitor odio eget mauris rutrum, a vehicula turpis llamcorper. Quisque iaculis leo non eleifend pretium. Nunc ullamcorper scelerisque purus semper. Donec mattis, augue condimentum varius vestibulum, magna lorem placerat ipsum, faucibus porta libero ipsum ut lorem. Morbi sed purus interdum. Ut porttitor odio eget mauris rutrum, a vehicula turpis llamcorper. Quisque iaculis leo non eleifend pretium. Nunc ullamcorper scelerisque purus semper.",
+            "detail1": "A full stack dentists website with and Beautiful Ui design and Responsive.",
+            "detail2": "A website built with many features, a beautiful header, footer, service, admin dashboard, and payment gateway is implemented in this website.",
+            "detail3": "website built with many features, a beautiful header, footer, service, admin dashboard, and payment gateway is implemented in this website.",
+            "detail4": "This website is based on minly design focus. Just demo live website",
+            "detail5": "Users can add a doctor and remove that doctor. This website is completely user-friendly"
+        }
+    }
+]
+
