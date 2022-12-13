@@ -1,19 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./Projects.css";
 import Branding from "../Branding/Branding";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import Project from "../Project/Project";
+import { projectsData } from "../../../data/ProjectData";
+import SingleProject from "./SingleProject";
+import Modal from "../../../components/Modal/Modal";
 
 const Projects = () => {
-  const [service, setService] = useState([]);
-  useEffect(() => {
-    fetch('http://localhost:3000/services.json')
-    .then(res => res.json())
-    .then(data => setService(data))
-  },[])
-  
+  const [pModal, setPModal] = useState(null)
   const settings = {
     dots: false,
     infinite: true,
@@ -64,11 +60,19 @@ const Projects = () => {
         <div className="mt-20">
           <Slider {...settings}>
             {
-              service?.map(pDetail => <Project key={pDetail._id}
-                pDetail={pDetail}
+              projectsData.map(project => <SingleProject 
+              key={project.id}
+              project={project}
+              setPModal={setPModal}
               />)
             }
           </Slider>
+            {
+              pModal && <Modal 
+              setPModal={setPModal}
+              pModal={pModal}
+              />
+            }
         </div>
       </div>
       <Branding />
