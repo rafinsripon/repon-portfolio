@@ -6,7 +6,7 @@ const Button = ({children, classes}) => {
     <div className="relative">
       <button class={`button ${classes}`}>
         <span class={`line block font-['syne'] ${classes}`}></span>
-        <h2 class="text mt-2">{children}</h2>
+        <h2 class="text mt-6">{children}</h2>
       </button>
     </div>
   );

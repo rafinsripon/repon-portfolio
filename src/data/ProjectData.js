@@ -14,6 +14,8 @@ export const projectsData = [
     id: 1,
     img: useMarket,
     link: "https://used-car-market-37ca6.web.app/",
+    client: "https://github.com/rafinsripon/used-car-market.git",
+    server: "https://github.com/rafinsripon/used-car-market-server.git",
     name: "Used Car Resale Market - ReactJS Template",
     slideImg: [agen1, agen2, agen3, agen4],
     techno: [
@@ -59,6 +61,8 @@ export const projectsData = [
     id: 2,
     img: doctors,
     link: "https://doctors-portal-78482.web.app/",
+    client: "https://github.com/rafinsripon/doctors-portal.git",
+    server: "https://github.com/rafinsripon/doctors-portal-server.git",
     name: "Daintise Doctors Portal - ReactJS Template",
     slideImg: [agen1, agen2, agen3, agen4],
     pera: "ReactJS / NodeJS / MongoDB / Firebase / ExpressJS / Tailwindcss / Strapi",
@@ -91,12 +95,21 @@ export const projectsData = [
             icon:
               "https://img.shields.io/badge/Strapi-000000?logo=Strapi&logoColor=#001307",
           }
-    ]
+    ],
+    details: {
+      mainDetail: "A beautiful online used market home website design and complete development, beautiful header, footer, bolog, services, category details etc. and other nice sections this website main feauture is to sell old car on this website and anyone can also buy that product, this website Fully responsive.",
+      pera1: "A used car resale market website, full authentication system is done by firebase on this website",
+      pera2: "This project implements 2 login systems. You can log in as a user to view all products and buy products and you can also log in as a seller. By logging in as a seller, you can add products and delete the products you want.",
+      pera3: "Admin dashboard is fully implemented on this website, admin can see all users and all sellers, admin can admin a seller and remove a user.",
+      pera4: "A product can be advertised, if the user is logged in to the website, and the advertised product can also be purchased",
+      pera5: "Admin can verify any user, and if any user is verified then blue will appear next to his name.",
+    }
   },
   {
     id: 3,
     img: business,
     link: "https://rafinsripon.github.io/1.Bizup-Business-website/",
+    client: "https://github.com/rafinsripon/1.Bizup-Business-website",
     slideImg: [agen1, agen2, agen3, agen4],
     name: "Bizup Business - HTML5 Template",
     pera: "Javascript / HTML5 / CSS3 / Bootstrap / Jquery",
@@ -121,12 +134,21 @@ export const projectsData = [
             icon:
               "https://img.shields.io/badge/jQuery-000000?logo=jQuery&logoColor=#001307",
           }
-    ]
+    ],
+    details: {
+      mainDetail: "A beautiful Agency Mega One HTML5 website design and complete development, beautiful header, footer, bolog, services, category details etc. and other nice sections this website main feauture is to sell old car on this website and anyone can also buy that product, this website Fully responsive.",
+      pera1: "A Agency Mega One website with and Beautiful Ui design and Responsive.",
+      pera2: "A website built with many features, a beautiful header, footer, service, About us, and All of Beutifull section in this website.",
+      pera3: "This website is based on minly design focus. Just demo live website",
+      pera4: "In this website All agency HTML5 template, This website is completely user-friendly"
+    }
   },
   {
     id: 4,
     img: foods,
     link: "https://quick-food-fc463.web.app/",
+    client: "https://github.com/rafinsripon/quick-foods-client",
+    server: "https://github.com/rafinsripon/quick-foods-server.git",
     name: "Online Quick Foods - ReactJS Template",
     slideImg: [agen1, agen2, agen3, agen4],
     pera: "ReactJS / Javascript / NodeJS / MongoDB / Firebase / Tailwindcss",
@@ -155,12 +177,22 @@ export const projectsData = [
             icon:
               "https://img.shields.io/badge/Tailwind CSS-000000?logo=Tailwind CSS&logoColor=#001307",
           }
-    ]
+    ],
+    details: {
+      mainDetail: "A beautiful online used market home website design and complete development, beautiful header, footer, bolog, services, category details etc. and other nice sections this website main feauture is to sell old car on this website and anyone can also buy that product, this website Fully responsive.",
+      pera1: "A used car resale market website, full authentication system is done by firebase on this website",
+      pera2: "This project implements 2 login systems. You can log in as a user to view all products and buy products and you can also log in as a seller. By logging in as a seller, you can add products and delete the products you want.",
+      pera3: "Admin dashboard is fully implemented on this website, admin can see all users and all sellers, admin can admin a seller and remove a user.",
+      pera4: "A product can be advertised, if the user is logged in to the website, and the advertised product can also be purchased",
+      pera5: "Admin can verify any user, and if any user is verified then blue will appear next to his name.",
+    }
   },
   {
     id: 5,
     img: news,
     link: "https://dragon-news-b5430.web.app/",
+    client: "https://github.com/rafinsripon/dragon-news-site",
+    server: "https://github.com/rafinsripon/dragon-news-server",
     name: "Gragon International News - Javascript Template",
     pera: "Javascript / HTML5 / Bootstrap / Express / Firebase",
     slideImg: [agen1, agen2, agen3, agen4],
@@ -189,13 +221,21 @@ export const projectsData = [
             icon:
               "https://img.shields.io/badge/Tailwind CSS-000000?logo=Tailwind CSS&logoColor=#001307",
           }
-    ]
-    
+    ],
+    details: {
+      mainDetail: "A beautiful online used market home website design and complete development, beautiful header, footer, bolog, services, category details etc. and other nice sections this website main feauture is to sell old car on this website and anyone can also buy that product, this website Fully responsive.",
+      pera1: "A used car resale market website, full authentication system is done by firebase on this website",
+      pera2: "This project implements 2 login systems. You can log in as a user to view all products and buy products and you can also log in as a seller. By logging in as a seller, you can add products and delete the products you want.",
+      pera3: "Admin dashboard is fully implemented on this website, admin can see all users and all sellers, admin can admin a seller and remove a user.",
+      pera4: "A product can be advertised, if the user is logged in to the website, and the advertised product can also be purchased",
+      pera5: "Admin can verify any user, and if any user is verified then blue will appear next to his name.",
+    }
   },
   {
     id: 6,
     img: mega,
     link: "https://rafinsripon.github.io/2.Agency-mega-one-HTML5-template/",
+    client: "https://github.com/rafinsripon/2.Agency-mega-one-HTML5-template",
     name: "Agency Mega One - HTML5 Template",
     slideImg: [agen1, agen2, agen3, agen4],
     techno: [
@@ -219,6 +259,13 @@ export const projectsData = [
           icon:
             "https://img.shields.io/badge/jQuery-000000?logo=jQuery&logoColor=#001307",
         }
-  ]
+  ],
+  details: {
+    mainDetail: "A beautiful Agency Mega One HTML5 website design and complete development, beautiful header, footer, bolog, services, category details etc. and other nice sections this website main feauture is to sell old car on this website and anyone can also buy that product, this website Fully responsive.",
+    pera1: "A Agency Mega One website with and Beautiful Ui design and Responsive.",
+    pera2: "A website built with many features, a beautiful header, footer, service, About us, and All of Beutifull section in this website.",
+    pera3: "This website is based on minly design focus. Just demo live website",
+    pera4: "In this website All agency HTML5 template, This website is completely user-friendly"
+  }
   },
 ];

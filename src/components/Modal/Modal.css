@@ -1,0 +1,11 @@
+span.line.modalBtn {
+    width: 70px;
+}
+
+.button .line.modalBtn:after {
+    left: 50px;
+}
+
+.modalBtn .text {
+    margin-top: 22px;
+}
